@@ -40,10 +40,10 @@ public class CalendrierAnnuel {
 		return false;
 	}
 
+
 	private static class Mois {
 		private String nom;
 		private boolean[] jour;
-
 		public Mois(String nom, int nbJour) {
 			this.nom = nom;
 			jour = new boolean[nbJour];
